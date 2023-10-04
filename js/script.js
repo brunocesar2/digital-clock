@@ -7,7 +7,7 @@ if (hours && minutes && seconds) {
     const currentHour = currentDate.getHours();
     const currentMinutes = currentDate.getMinutes();
     const currentSeconds = currentDate.getSeconds();
-
+    
     hours.innerHTML = formatTime(currentHour);
     minutes.innerHTML = formatTime(currentMinutes);
     seconds.innerHTML = formatTime(currentSeconds);
